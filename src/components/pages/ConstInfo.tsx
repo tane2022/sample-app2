@@ -125,12 +125,12 @@ const ConstInfo: React.FC<Props> = (props) => {
         columns={[
           { title: '氏名', field: 'name', headerStyle: { maxWidth: 0}},
           { title: '入場時刻', field: 'inDatetime', headerStyle: { maxWidth: 0}},
-          { title: '入場時刻', field: 'outDatetime', headerStyle: { maxWidth: 0}},
+          { title: '退場時刻', field: 'outDatetime', headerStyle: { maxWidth: 0}},
         ]}
         data={[
           { name: '日本　太郎', inDatetime: '2022/8/1 05:45', outDatetime: '2022/8/1 13:18'},
           { name: '本間　太郎', inDatetime: '2022/8/1 07:10', outDatetime: ''},
-          { name: '種村　次郎', inDatetime: '2022/8/1 06:22', outDatetime: '2022/8/1 17:32'},
+          { name: '種村　次郎', inDatetime: '2022/8/1 06:22', outDatetime: ''},
           { name: '内装　一郎', inDatetime: '2022/8/1 07:45', outDatetime: '2022/8/1 16:11'},
           { name: '内装　三郎', inDatetime: '2022/8/1 06:53', outDatetime: '2022/8/1 16:32'},
           { name: '外構　久兵衛', inDatetime: '2022/8/1 08:00', outDatetime: '2022/8/1 17:55'},
